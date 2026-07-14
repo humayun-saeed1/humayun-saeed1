@@ -7,9 +7,9 @@ I build production-ready, AI-native applications and scalable full-stack archite
 ### 💼 What I Deliver
 
 *   **AI & Agentic Integrations:** Building custom FastMCP servers, multi-agent pipelines, and LLM-driven automations that replace manual workflows.
-*   **Production-Grade Full-Stack:** Developing robust APIs (NestJS, FastAPI) and highly performant frontends (React, Next.js, Tailwind with modern OKLCH color spaces).
-*   **E-Commerce & External APIs:** Seamless headless integrations (GraphQL, Shopify Storefront API) designed for high conversion and speed.
-*   **Reliable Infrastructure:** Ensuring dev/prod parity using Docker and maintaining clean, version-controlled codebases (Git rebase workflow).
+*   **Production-Grade Full-Stack:** Developing robust APIs (NestJS, FastAPI) and highly performant frontends (React, Next.js, Tailwind).
+*   **E-Commerce & External APIs:** Seamless headless integrations designed for high conversion and speed.
+*   **Reliable Infrastructure:** Ensuring dev/prod parity using Docker and maintaining clean, version-controlled codebases.
 
 ---
 
@@ -20,7 +20,7 @@ I build production-ready, AI-native applications and scalable full-stack archite
 | **AI & Intelligence** | Python, FastMCP, Custom LLM Integrations, Multi-Agent Workflows |
 | **Backend & APIs** | Node.js, NestJS, FastAPI, GraphQL, REST APIs |
 | **Frontend & Mobile** | React, Next.js, Tailwind CSS, Android Studio |
-| **DevOps & Tooling** | Docker, Vercel, Git (Stash/Rebase workflows), VS Code |
+| **DevOps & Tooling** | Docker, Vercel, Git, VS Code |
 
 ---
 
