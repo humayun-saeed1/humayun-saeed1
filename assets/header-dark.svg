@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="206" viewBox="0 0 1000 206" role="img" aria-label="Humayun Saeed — Full-stack engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="206" viewBox="0 0 1000 206" role="img" aria-label="Humayun Saeed — Software engineer">
 <style>
   .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
   .label{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:1.5px;fill:#656C76}
@@ -17,8 +17,8 @@
 
 <g class="in"><text class="name" x="0" y="64">Humayun Saeed</text></g>
 <g class="in" style="animation-delay:.15s">
-  <text class="lead" x="0" y="112">Full-stack engineer. I build </text>
-  <text class="w" x="0" y="112"  style="animation-delay:0s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">production APIs.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:3s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">AI-native products.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:6s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">MCP servers.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:9s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">fast, clean interfaces.</tspan></text>
+  <text class="lead" x="0" y="112">Software engineer. I build </text>
+  <text class="w" x="0" y="112"  style="animation-delay:0s"><tspan fill-opacity="0">Software engineer. I build </tspan><tspan class="wd">production APIs.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:3s"><tspan fill-opacity="0">Software engineer. I build </tspan><tspan class="wd">AI-native products.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:6s"><tspan fill-opacity="0">Software engineer. I build </tspan><tspan class="wd">MCP servers.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:9s"><tspan fill-opacity="0">Software engineer. I build </tspan><tspan class="wd">fast, clean interfaces.</tspan></text>
 </g>
 <g class="in" style="animation-delay:.3s">
   <circle class="ring" cx="5" cy="160" r="4"/><circle class="dot" cx="5" cy="160" r="4"/>
