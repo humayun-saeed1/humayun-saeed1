@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="96" viewBox="0 0 1000 96" role="img" aria-label="Contact: humayunbaig046@gmail.com">
+<style>
+  .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  .label{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:1.5px;fill:#656C76}
+  .in{animation:in .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}}
+  .c{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:17px;fill:#F0F6FC}
+  .cs{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15px;fill:#9198A1}
+  .ar{fill:#9198A1;animation:nudge 2.4s ease-in-out infinite}
+  @keyframes nudge{50%{transform:translate(3px,-3px)}}</style>
+
+<text class="label in" x="0" y="44">CONTACT</text>
+<g class="in" style="animation-delay:.1s">
+  <text class="c" x="190" y="44">humayunbaig046@gmail.com <tspan class="ar">↗</tspan></text>
+  <text class="cs" x="190" y="72">Open to freelance builds, AI integrations and architecture work.</text>
+</g>
+</svg>

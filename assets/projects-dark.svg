@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="202" viewBox="0 0 1000 202" role="img" aria-label="Selected work">
+<style>
+  .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  .label{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:1.5px;fill:#656C76}
+  .in{animation:in .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}}
+  .pt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:17px;font-weight:600;fill:#F0F6FC}
+  .pd{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:15px;fill:#9198A1}
+  .ps{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12.5px;fill:#656C76}
+  .arrow{fill:#656C76}</style>
+<text class="label in" x="0" y="44">SELECTED WORK</text><g class="in" style="animation-delay:0.1s">
+  <text class="pt" x="190" y="44">Smart Route Finder</text>
+  <text class="ps" x="1000" y="44" text-anchor="end">Three.js · GSAP</text>
+  <text class="pd" x="190" y="70">3D spatial routing visualizer with smooth, cinematic camera work.</text>
+</g><line x1="190" x2="1000" y1="98.5" y2="98.5" stroke="#3D444D" stroke-dasharray="2 4"/><g class="in" style="animation-delay:0.22s">
+  <text class="pt" x="190" y="136">Metatix</text>
+  <text class="ps" x="1000" y="136" text-anchor="end">React · FastAPI · PostgreSQL</text>
+  <text class="pd" x="190" y="162">Event ticket booking platform built to handle concurrent load.</text>
+</g><line x1="0" x2="1000" y1="201.5" y2="201.5" stroke="#3D444D"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="206" viewBox="0 0 1000 206" role="img" aria-label="Humayun Saeed — Full-stack engineer">
+<style>
+  .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  .label{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:1.5px;fill:#8C959F}
+  .in{animation:in .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}}
+  .name{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:46px;font-weight:600;letter-spacing:-1.2px;fill:#1F2328}
+  .lead{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:21px;fill:#59636E}
+  .w{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:21px;fill:#59636E;animation:rot 12s cubic-bezier(.4,0,.2,1) infinite both}
+    .wd{fill:#1F2328;font-weight:500}
+  @keyframes rot{0%{opacity:0;transform:translateY(10px)}4%,21%{opacity:1;transform:none}25%,100%{opacity:0;transform:translateY(-10px)}}
+  .meta{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;fill:#59636E}
+  .dot{fill:#1A7F37}
+  .ring{fill:none;stroke:#1A7F37;transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+  @keyframes ring{from{opacity:.8;transform:scale(1)}to{opacity:0;transform:scale(2.6)}}
+  .rule{stroke:#D1D9E0}</style>
+
+<g class="in"><text class="name" x="0" y="64">Humayun Saeed</text></g>
+<g class="in" style="animation-delay:.15s">
+  <text class="lead" x="0" y="112">Full-stack engineer. I build </text>
+  <text class="w" x="0" y="112"  style="animation-delay:0s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">production APIs.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:3s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">AI-native products.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:6s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">MCP servers.</tspan></text><text class="w" x="0" y="112" opacity="0" style="animation-delay:9s"><tspan fill-opacity="0">Full-stack engineer. I build </tspan><tspan class="wd">fast, clean interfaces.</tspan></text>
+</g>
+<g class="in" style="animation-delay:.3s">
+  <circle class="ring" cx="5" cy="160" r="4"/><circle class="dot" cx="5" cy="160" r="4"/>
+  <text class="meta" x="20" y="164.5">Available for freelance — US · UK · AU</text>
+</g>
+<line class="rule" x1="0" x2="1000" y1="205.5" y2="205.5"/>
+</svg>

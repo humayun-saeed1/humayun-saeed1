@@ -1,38 +1,26 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Humayun Saeed — AI & Full-Stack Engineer" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/header-dark.svg" />
+  <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/header-light.svg" width="100%" alt="Humayun Saeed — Full-stack engineer. Available for freelance." />
+</picture>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=700&lines=Shipping+production-ready+full-stack+apps+%E2%9A%A1;FastAPI+%2B+Next.js+%2B+PostgreSQL+%3D+%E2%9D%A4%EF%B8%8F;Building+MCP+servers+%26+agentic+workflows+%F0%9F%A4%96;Open+for+freelance+%E2%80%94+let's+build+something+great+%F0%9F%9A%80" alt="typing intro" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/stack-dark.svg" />
+  <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/stack-light.svg" width="100%" alt="Stack — Python, FastAPI, NestJS, Node.js, Express, Fastify, Flask, SQLAlchemy, Next.js, React, TypeScript, TanStack, Tailwind, React Native, Three.js, PostgreSQL, MCP, Docker, GitHub Actions, Vercel, Git" />
+</picture>
 
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Tech stack: Python, FastAPI, NestJS, Node.js, Express, Fastify, Flask, SQLAlchemy, Next.js, React, TypeScript, TanStack, Tailwind, React Native, Three.js, Vite, PostgreSQL, MCP, Docker, GitHub Actions, Vercel, Git, Linux, Postman" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/pulse-dark.svg" />
+  <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/pulse-light.svg" width="100%" alt="Live GitHub activity, refreshed every 6 hours" />
+</picture>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/pulse.svg" width="100%" alt="Live GitHub stats — refreshed every 6 hours" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/projects-dark.svg" />
+  <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/projects-light.svg" width="100%" alt="Selected work — Smart Route Finder, Metatix" />
+</picture>
 
-<p align="center">
-  <img src="./assets/projects.svg" width="100%" alt="Featured projects: Smart Route Finder and Metatix" />
-</p>
-
-<p align="center">
-  <img src="./assets/snake-label.svg" width="100%" alt="" />
+<a href="mailto:humayunbaig046@gmail.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/contact-dark.svg" />
+    <img src="https://raw.githubusercontent.com/humayun-saeed1/humayun-saeed1/main/assets/contact-light.svg" width="100%" alt="Contact — humayunbaig046@gmail.com" />
   </picture>
-</p>
-
-<p align="center">
-  <a href="mailto:humayunbaig046@gmail.com">
-    <img src="./assets/contact.svg" width="100%" alt="Got a project in mind? Email humayunbaig046@gmail.com" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="" />
-</p>
+</a>
