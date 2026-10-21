@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="footer">
+<defs>
+  <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#06B6D4"/></linearGradient>
+  <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#DB2777"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+  <clipPath id="fc"><rect width="1200" height="150" rx="18"/></clipPath>
+</defs>
+<style>
+  .a{animation:m 9s linear infinite}.b{animation:m 13s linear infinite reverse}.c{animation:m 6s linear infinite}
+  @keyframes m{to{transform:translateX(-300px)}}
+</style>
+<g clip-path="url(#fc)">
+  <rect width="1200" height="150" fill="#06080F"/>
+  <path class="b" d="M0 70 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 q 75 -22 150 0 t 150 0 V 150 H 0 Z" fill="url(#w2)" opacity=".35"/>
+  <path class="a" d="M0 88 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 q 75 -18 150 0 t 150 0 V 150 H 0 Z" fill="url(#w1)" opacity=".55"/>
+  <path class="c" d="M0 108 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 q 75 -12 150 0 t 150 0 V 150 H 0 Z" fill="#0C0A1E" opacity=".9"/>
+  <text x="600" y="134" text-anchor="middle" style="font-weight:600;font-size:12px;font-family:'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, monospace;letter-spacing:4px" fill="#8A93B5">THANKS FOR STOPPING BY <tspan fill="#A78BFA">✦</tspan> HUMAYUN SAEED</text>
+</g>
+</svg>

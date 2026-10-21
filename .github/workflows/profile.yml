@@ -1,0 +1,52 @@
+name: Refresh profile visuals
+
+# Regenerates the live stats dashboard + contribution snake
+# and publishes them to the `output` branch the README reads from.
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate GitHub Pulse dashboard
+        env:
+          # Optional: add a classic PAT (repo + read:user) as STATS_TOKEN
+          # to include private repos & contributions in the numbers.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+        run: python scripts/github_pulse.py "${{ github.repository_owner }}" dist/pulse.svg
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#161b22,#2e1065,#5b21b6,#7c3aed,#a78bfa
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile visuals"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
