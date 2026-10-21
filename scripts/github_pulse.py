@@ -186,6 +186,10 @@ def smooth_path(pts):
 def render(s):
     W, H = 1200, 500
     cur, best = streaks(s["days"], s["today"])
+    year_ago = s["today"] - dt.timedelta(days=365)
+    recent = {k: v for k, v in s["days"].items() if dt.date.fromisoformat(k) > year_ago}
+    active = sum(1 for v in recent.values() if v > 0)
+    busiest = max(recent.values(), default=0)
     per = 2 * (W - 2 + H - 2)
     o = []
     add = o.append
@@ -233,7 +237,7 @@ def render(s):
         ("CURRENT STREAK", f"{cur}d", f"best run · {best} days", C["green"]),
         ("PULL REQUESTS", fmt(s["prs"]), "opened all-time", C["pink"]),
         ("REPOSITORIES", fmt(s["repos"]), "owned & building", C["amber"]),
-        ("STARS EARNED", fmt(s["stars"]), f"{fmt(s['followers'])} followers", C["violet"]),
+        ("ACTIVE DAYS", fmt(active), f"last 365 · busiest day {busiest}", C["violet"]),
     ]
     tw, gap, ty, th = 178, (W - 68 - 6 * 178) / 5, 68, 112
     for i, (k, v, sub, col) in enumerate(kpis):
