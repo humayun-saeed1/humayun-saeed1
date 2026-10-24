@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="384" viewBox="0 0 1000 384" role="img" aria-label="GitHub activity">
+<style>
+  .label{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;letter-spacing:1.5px;fill:#8C959F}
+  .note{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:11.5px;fill:#8C959F}
+  .num{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:28px;font-weight:600;letter-spacing:-.5px;fill:#1F2328}
+  .cap{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:13.5px;fill:#59636E}
+  .lang{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-size:14px;fill:#1F2328}
+  .pct{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#8C959F}
+  .in{animation:in .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}}
+  .line{fill:none;stroke:#1F2328;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;
+         stroke-dasharray:1284;animation:draw 2.6s .4s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{from{stroke-dashoffset:1284}}
+  .grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.2s .6s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes grow{from{transform:scaleX(0)}}
+  .ring{fill:none;stroke:#1A7F37;transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+  @keyframes ring{from{opacity:.8;transform:scale(1)}to{opacity:0;transform:scale(2.6)}}
+</style>
+<text class="label" x="0" y="44">ACTIVITY</text>
+<text class="note" x="0" y="66">live · 24 oct</text>
+<g class="in" style="animation-delay:0.00s"><text class="num" x="190.0" y="52">1,107</text><text class="cap" x="190.0" y="76">contributions since 2024</text></g>
+<g class="in" style="animation-delay:0.08s"><text class="num" x="392.5" y="52">49</text><text class="cap" x="392.5" y="76">pull requests</text></g>
+<g class="in" style="animation-delay:0.16s"><text class="num" x="595.0" y="52">0</text><text class="cap" x="595.0" y="76">day streak · best 13</text></g>
+<g class="in" style="animation-delay:0.24s"><text class="num" x="797.5" y="52">106</text><text class="cap" x="797.5" y="76">active days · 12 months</text></g>
+<line x1="190" x2="994" y1="238.5" y2="238.5" stroke="#D1D9E0"/>
+<path class="line" d="M190.0 238.0 C192.5 238.0 200.7 238.0 205.8 238.0 C210.8 238.0 216.5 238.0 221.5 238.0 C226.6 238.0 232.2 238.0 237.3 238.0 C242.3 238.0 248.0 238.0 253.1 238.0 C258.1 238.0 263.8 238.0 268.8 238.0 C273.9 237.6 279.5 235.7 284.6 235.7 C289.6 235.7 295.3 237.6 300.4 238.0 C305.4 238.0 311.1 238.0 316.1 238.0 C321.2 237.5 326.8 235.6 331.9 234.9 C336.9 234.1 342.6 232.8 347.6 233.3 C352.7 233.8 358.4 237.3 363.4 238.0 C368.5 238.0 374.1 238.0 379.2 238.0 C384.2 238.0 389.9 238.0 394.9 238.0 C400.0 238.0 405.7 238.0 410.7 238.0 C415.8 238.0 421.4 238.0 426.5 238.0 C431.5 238.0 437.2 238.0 442.2 238.0 C447.3 238.0 453.0 238.0 458.0 238.0 C463.0 238.0 468.7 238.0 473.8 238.0 C478.8 238.0 484.5 238.0 489.5 238.0 C494.6 238.0 500.2 238.0 505.3 238.0 C510.3 238.0 516.0 238.0 521.1 238.0 C526.1 236.6 531.8 229.4 536.8 229.4 C541.9 229.4 547.5 238.0 552.6 238.0 C557.6 237.5 563.3 226.3 568.4 226.3 C573.4 226.3 579.1 236.5 584.1 238.0 C589.2 238.0 594.8 236.7 599.9 235.7 C604.9 234.7 610.6 231.4 615.6 231.8 C620.7 232.1 626.4 237.0 631.4 238.0 C636.5 238.0 642.1 238.0 647.2 238.0 C652.2 238.0 657.9 238.0 662.9 238.0 C668.0 237.8 673.7 236.4 678.7 236.4 C683.8 236.4 689.4 238.0 694.5 238.0 C699.5 236.1 705.2 227.9 710.2 224.8 C715.3 221.6 721.0 218.0 726.0 218.5 C731.0 219.0 736.7 226.9 741.8 227.9 C746.8 228.9 752.5 232.2 757.5 224.8 C762.6 217.3 768.2 185.9 773.3 181.2 C778.3 176.4 784.0 193.3 789.1 195.2 C794.1 197.0 799.8 201.4 804.8 192.8 C809.9 184.2 815.5 135.8 820.6 141.5 C825.6 147.1 831.3 219.0 836.4 227.9 C841.4 236.7 847.1 206.5 852.1 196.7 C857.2 187.0 862.8 165.7 867.9 167.1 C872.9 168.6 878.6 202.6 883.6 206.1 C888.7 209.6 894.4 188.7 899.4 188.9 C904.5 189.2 910.1 201.8 915.2 207.6 C920.2 213.5 925.9 231.9 930.9 225.5 C936.0 219.2 941.7 182.3 946.7 167.9 C951.8 153.6 957.4 134.4 962.5 136.0 C967.5 137.6 973.2 167.6 978.2 178.0 C983.3 188.5 991.5 197.7 994.0 201.4"/>
+<text class="note" x="268.8" y="260" text-anchor="middle">dec</text>
+<text class="note" x="331.9" y="260" text-anchor="middle">jan</text>
+<text class="note" x="410.7" y="260" text-anchor="middle">feb</text>
+<text class="note" x="473.8" y="260" text-anchor="middle">mar</text>
+<text class="note" x="536.8" y="260" text-anchor="middle">apr</text>
+<text class="note" x="599.9" y="260" text-anchor="middle">may</text>
+<text class="note" x="678.7" y="260" text-anchor="middle">jun</text>
+<text class="note" x="741.8" y="260" text-anchor="middle">jul</text>
+<text class="note" x="804.8" y="260" text-anchor="middle">aug</text>
+<text class="note" x="883.6" y="260" text-anchor="middle">sep</text>
+<text class="note" x="946.7" y="260" text-anchor="middle">oct</text>
+<circle class="ring" cx="994.0" cy="201.4" r="3.5"/><circle cx="994.0" cy="201.4" r="3.5" fill="#1A7F37"/>
+<text class="note in" style="animation-delay:2.4s" x="962.5" y="126.0" text-anchor="middle">131/wk</text>
+<text class="note" x="0" y="260">12 months</text>
+<line x1="0" x2="1000" y1="277.5" y2="277.5" stroke="#D1D9E0"/>
+<text class="label" x="0" y="318">LANGUAGES</text>
+<clipPath id="lb"><rect x="190" y="308" width="810" height="6" rx="3"/></clipPath><g clip-path="url(#lb)">
+<rect class="grow" x="190.0" y="308" width="409.4" height="6" fill="#1F2328" fill-opacity="1"/>
+<rect class="grow" x="598.9" y="308" width="280.6" height="6" fill="#1F2328" fill-opacity="0.62"/>
+<rect class="grow" x="879.1" y="308" width="121.4" height="6" fill="#1F2328" fill-opacity="0.38"/>
+</g>
+<g class="in" style="animation-delay:0.80s"><circle cx="194" cy="341" r="4" fill="#1F2328" fill-opacity="1"/><text class="lang" x="204" y="346">JavaScript</text><text class="pct" x="291" y="346">50%</text></g>
+<g class="in" style="animation-delay:0.88s"><circle cx="345.2" cy="341" r="4" fill="#1F2328" fill-opacity="0.62"/><text class="lang" x="355.2" y="346">TypeScript</text><text class="pct" x="442" y="346">35%</text></g>
+<g class="in" style="animation-delay:0.96s"><circle cx="496.4" cy="341" r="4" fill="#1F2328" fill-opacity="0.38"/><text class="lang" x="506.4" y="346">Python</text><text class="pct" x="562" y="346">15%</text></g>
+<line x1="0" x2="1000" y1="383.5" y2="383.5" stroke="#D1D9E0"/>
+</svg>
